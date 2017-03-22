@@ -14,7 +14,7 @@ env:
 
 script:
   - docker build -f Dockerfile -t $DOCKER_REPO:$COMMIT .
-  - docker run -d --name testcontainer $DOCKER_REPO
+  - docker run -d --name testcontainer $DOCKER_REPO:$COMMIT
   # Your test scripts
   - docker ps
 
