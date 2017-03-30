@@ -10,7 +10,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositori
  && echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
  && apk update \
  && apk add --no-cache bash ca-certificates s6 \
- && rm -rf /tmp/*
+ && rm -rf /var/cache/apk/* /tmp/*
 
 COPY rootfs /
 
