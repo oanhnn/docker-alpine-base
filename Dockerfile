@@ -1,6 +1,8 @@
 FROM alpine:latest
 
-MAINTAINER Oanh Nguyen <oanhnn.bk@gmail.com>
+LABEL image="oanhnn/alpine-base" \
+      license="MIT" \
+      homepage="https://github.com/oanhnn/docker-alpine-base"
 
 ENV LANG="en_US.UTF-8" \
     LC_ALL="en_US.UTF-8" \

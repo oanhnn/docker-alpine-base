@@ -7,3 +7,4 @@ README.md
 .gitignore
 .gitattributes
 .travis.yml
+docker-check.sh

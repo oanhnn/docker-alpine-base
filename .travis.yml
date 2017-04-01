@@ -17,6 +17,7 @@ script:
   - docker run -d --name testcontainer $DOCKER_REPO:$COMMIT
   # Your test scripts
   - docker ps
+  - ./docker-check.sh testcontainer
 
 after_success:
 - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD

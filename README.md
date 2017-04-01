@@ -1,6 +1,8 @@
 # oanhnn/alpine-base
 
 [![Build Status](https://travis-ci.org/oanhnn/docker-alpine-base.svg?branch=master)](https://travis-ci.org/oanhnn/docker-alpine-base)
+[![](https://images.microbadger.com/badges/image/oanhnn/alpine-base.svg)](https://microbadger.com/images/oanhnn/alpine-base "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/oanhnn/alpine-base.svg)](https://microbadger.com/images/oanhnn/alpine-base "Get your own version badge on microbadger.com")
 
 Repository of `oanhnn/alpine-base` Docker image.
 
@@ -13,7 +15,7 @@ Repository of `oanhnn/alpine-base` Docker image.
 
 ## Usage
 
-```bash
+```shell
 $ docker pull oanhnn/alpine-base
 ```
 
